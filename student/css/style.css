@@ -1,0 +1,259 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e3e3e3;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #9a79cc;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+aside {
+    background-color: #8da1c5;
+    width: 200px;
+    float: left;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin: 10px 0;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #1a3365;
+    font-weight: bold;
+}
+
+main {
+    margin-left: 220px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-style: italic;
+    color: green;
+}
+
+.topic {
+    margin-top: 20px;
+}
+
+.topic h3 {
+    color: rgb(12, 14, 12);
+    font-size: 1.2em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 3px;
+    text-align: center;
+}
+
+table th {
+    background-color: #f2f2f2;
+    color: red;
+}
+
+table td a {
+    color: blue;
+    text-decoration: none;
+}
+
+table td {
+    color: black;
+}
+
+
+/* explore css -> for [ dispaly model window and also close]  */
+.topics-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .topics-table th, .topics-table td {
+    border: 2px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .topics-table th {
+    background-color: #f0f0f0;
+  }
+  
+  .topics-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .topics-table tr:hover {
+    background-color: #ccc;
+  }   
+  /* .video-modal {
+      
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .video-modal iframe {
+      width: 600px;
+      height: 500px;
+      margin-left: 350px;
+      margin-top: 75px;
+      border: none;
+  }
+  
+  .video-modal .close {
+      position: absolute;
+      top: 120px;
+      right: 530px;
+      font-size: 24px;
+      cursor: pointer;
+      color: #FE6;
+      background-color: rgb(232 13 13);
+      padding: 6px;
+      border-radius: 26%;
+      z-index: 9;
+  } */
+
+
+  /* General Styles */
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+  }
+
+  /* List Styles */
+  .topics-list {
+      list-style-type: none;
+      padding: 0;
+      background-color: black;
+  }
+
+  .topics-list li {
+      margin: 1px 0;
+      padding: 2px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+  }
+
+  .custom-list-item a {
+      text-decoration: none;
+      color: black;
+      display: block;
+      background-color: #f9f9f9;
+      padding: 1px;
+      border-radius: 13px;
+  }
+
+  .custom-list-item a:hover {
+      background-color: #ccc
+  }
+
+  /* Subtopics Container */
+  .subtopics-container {
+      
+      border-left: 1px solid #ccc;
+      background-color: white;
+  }
+
+  /* Content Container */
+  .content-container {
+      
+      border-left: 2px solid #ddd;
+      background: white;
+  }
+
+  /* Modal Styles */
+  .topics-table {
+      border-collapse: collapse;
+      width: 100%;
+  }
+
+  .topics-table th,
+  .topics-table td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+  }
+
+  .topics-table th {
+      background-color: #f0f0f0;
+  }
+
+  .topics-table tr:nth-child(even) {
+      background-color: #f9f9f9;
+  }
+
+  .topics-table tr:hover {
+      background-color: #ccc;
+  }
+
+  .video-modal {
+
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .video-modal iframe {
+      width: 600px;
+      height: 500px;
+      margin-left: 350px;
+      margin-top: 75px;
+      border: none;
+  }
+
+  .video-modal .close {
+      position: absolute;
+      top: 85px;
+      font-size: 24px;
+      cursor: pointer;
+      color: #FE6;
+      background-color: rgb(232 13 13);
+      padding: 6px;
+      border-radius: 26%;
+      z-index: 9;
+      margin-left: -38px;
+  }

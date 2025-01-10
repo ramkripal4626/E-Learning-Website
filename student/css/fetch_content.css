@@ -1,0 +1,147 @@
+.subtopics-table {
+    width: 100%;
+    height: 80%;
+    border-collapse: collapse;
+    margin: 10px 0;
+    font-size: 14px;
+    text-align: left;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.subtopics-table th {
+    background-color: black;
+    color: #f1f1f1;
+    
+}
+
+.subtopics-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.video-link {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.video-link img {
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.video-link:hover img {
+    transform: scale(1.1);
+}
+
+.rating {
+    display: inline-block;
+    font-size: 12px;
+    color: #ffd700;
+}
+
+.rating .fas,
+.rating .far {
+    margin-right: 2px;
+}
+
+.rating-form select {
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.rating-form input[type="submit"] {
+    margin-top: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.rating-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.rat {
+    text-align: right;
+    border-left: hidden;
+}
+
+.ratclass {
+    font-size: 12px;
+    margin-right: 2px;
+    border-left: hidden;
+}
+
+th {
+    text-align: right;
+}
+
+.star-rating {
+    direction: rtl;
+    font-size: 1.5em;
+    display: inline-block;
+}
+
+.star-rating input[type="radio"] {
+    display: none;
+}
+
+.star-rating label {
+    color: #ddd;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.star-rating input[type="radio"]:checked ~ label,
+.star-rating input[type="radio"]:checked ~ label ~ label {
+    color: #ffd700;
+}
+
+.star-rating input[type="radio"]:focus ~ label {
+    color: #c5a900;
+}
+.spandesc {
+    
+    width: 2px;
+    height: 2px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+  }
+
+  .spandesc {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    color: #007bff; /* Change the color to whatever fits your design */
+}
+/* tooltip css */
+
+.tooltip-box {
+    visibility: hidden;
+    width: 200px; /* Adjust the width as needed */
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Position above the text */
+    left: 50%;
+    margin-left: auto; /* Center the tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+
+.spandesc:hover .tooltip-box {
+    visibility: visible;
+    opacity: 1;
+}
